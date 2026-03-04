@@ -1,23 +1,69 @@
+# =========================
 # Conda / Python
+# =========================
 conda-meta/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
 .env
 .venv/
 venv/
 
-# Data files
+# =========================
+# Data
+# =========================
 data/
+datasets/
 *.csv
 *.xlsx
 *.parquet
+*.hdf5
+*.h5
 
+# =========================
+# ML Models
+# =========================
+models/
+checkpoints/
+*.ckpt
+*.pb
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pkl
+*.model
+
+# =========================
+# TensorFlow
+# =========================
+*.index
+*.data-*
+events.out.tfevents.*
+
+# =========================
+# Logs / Outputs
+# =========================
+logs/
+runs/
+outputs/
+wandb/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints
+
+# =========================
 # OS
+# =========================
 .DS_Store
 Thumbs.db
 
+# =========================
 # IDE
+# =========================
 .vscode/
 .idea/
